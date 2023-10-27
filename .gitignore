@@ -1,0 +1,36 @@
+# Ignore build artifacts
+build/
+bin/
+lib/
+CMakeFiles/
+CMakeCache.txt
+CMakeScripts/
+CMakeTmp/
+cmake_install.cmake
+Makefile
+
+# Visual Studio Code settings
+.vscode/
+settings.json
+*.code-workspace
+
+# Compiled object files, static and dynamic libraries
+*.o
+*.a
+*.so
+*.dll
+
+# Compiled executables
+*.out
+
+# macOS-specific files
+.DS_Store
+
+# Windows-specific files
+Thumbs.db
+
+# User-specific settings
+*.suo
+*.user
+*.userprefs
+*.orig
